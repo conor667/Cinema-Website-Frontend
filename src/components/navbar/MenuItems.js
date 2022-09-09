@@ -1,3 +1,5 @@
+import Home from "./Home.js"
+
 export const MenuItems = [
     {
         title: 'Home',
@@ -12,7 +14,8 @@ export const MenuItems = [
     {
         title: 'About',
         url: '/about',
-        cName: 'nav-links'
+        cName: 'nav-links',
+        element: 'About'
     },
     {
         title: 'Contact us',
