@@ -1,10 +1,15 @@
 import React from "react";
+import "./Home.css"
+import ImageSlider from "./Images/ImageSlider";
+import { SliderData } from './Images/SliderData';
 
 function Home() {
     return(
         <>
-        <h1>Test</h1>
-        <p>Home</p>
+        <div>
+        <ImageSlider slides={SliderData} />
+        <p>Body</p>
+        </div>
         </>
     )
 };
