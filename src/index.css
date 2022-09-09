@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #4361ee;
+  color:white;
 }
 
 code {
@@ -13,5 +15,5 @@ code {
 }
 nav {
   color:black;
-  background-color: #004A9C;
+  background-color: #a9def9;
 }
