@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Home from './components/pages/Home';
 import Movies from './components/pages/Movies';
 import About from './components/pages/About';
+import Contact from './components/pages/Contact';
 
 function App() {
   let Component
@@ -19,6 +20,9 @@ function App() {
       break
     case "/About":
       Component = About
+      break
+    case "/Contact":
+      Component = Contact
       break
   }
   return (
