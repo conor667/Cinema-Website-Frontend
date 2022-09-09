@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar';
+
 import Home from './components/pages/Home';
 import Movies from './components/pages/Movies';
 import About from './components/pages/About';
