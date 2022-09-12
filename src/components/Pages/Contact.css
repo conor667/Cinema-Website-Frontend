@@ -7,17 +7,24 @@ label{
     text-align: center;
     margin:0.2rem;
     padding:0.4rem;
-    margin-left: 48%;
+    margin-left: 45%;
+    margin-right: 45%;
     display: flex;
+    border-radius: 90px;
+    border-color: #3acbf7;
+    background: #3acbf7;
+    color:white;
+    border-style: solid;
 }
 
 input{
     display:flex;
-    text-align: center;
     margin:0.2rem;
-    padding:0.4rem;
-    margin-left: 45%;
-    outline:none;
+    padding:0.5rem;
+    margin-left: 42%;
+    width: 300px;
+    border-radius: 90px;
+    border-style: solid;
     display: flex;
 }
 
@@ -43,6 +50,14 @@ input{
     outline: none;
     border: none;
     cursor: pointer;
+}
+.message{
+    height:300px;
+    width: 600px;
+    outline:none;
+    border-style: solid;
+    border-radius: 90px;
+    border-color: #6568f4;
 }
 
 
