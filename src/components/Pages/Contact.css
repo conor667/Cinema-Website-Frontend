@@ -1,0 +1,49 @@
+:root {
+    --primary: #3acbf7;
+}
+
+label{
+    display:flex;
+    text-align: center;
+    margin:0.2rem;
+    padding:0.4rem;
+    margin-left: 48%;
+    display: flex;
+}
+
+input{
+    display:flex;
+    text-align: center;
+    margin:0.2rem;
+    padding:0.4rem;
+    margin-left: 45%;
+    outline:none;
+    display: flex;
+}
+
+.btncontact:hover{
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #6568f4;
+    transition: 250ms;
+}
+
+.btncontact{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    font-size: 18px;
+    background: var(--primary);
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+

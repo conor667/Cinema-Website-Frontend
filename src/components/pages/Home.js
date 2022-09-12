@@ -8,7 +8,7 @@ function Home() {
         <>
         <div>
         <ImageSlider slides={SliderData} />
-        <p>Body</p>
+        <p>Welcome to QA Cinema!</p>
         </div>
         </>
     )
