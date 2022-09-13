@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css"
+import "./Footer.css"
 
 const Footer = () => {
     return(
@@ -8,10 +8,10 @@ const Footer = () => {
                 <div class="footer">
                     <div className="footer-heading footer-1">
                     <h2>Social Media</h2>
-                        <a href="/">Instagram</a>
-                        <a href="/">Youtube</a>
-                        <a href="/">Twitter</a>
-                        <a href="/">Facebook</a>
+                        <a className="fa-brands fa-instagram" href="/"> Instagram</a>
+                        <a className="fa-brands fa-youtube" href="/">Youtube</a>
+                        <a className="fa-brands fa-twitter" href="/">Twitter</a>
+                        <a className="fa-brands fa-facebook" href="/">Facebook</a>
                     </div>
                     <div className="footer-heading footer-2">
                         <h2>Get in touch</h2>
