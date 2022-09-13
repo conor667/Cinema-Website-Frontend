@@ -1,5 +1,5 @@
 :root {
-    --primary: #3acbf7;
+    --primary: #ee9025;
 }
 
 
@@ -15,7 +15,7 @@
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     background: #fff;
-    color: #6568f4;
+    color: #fd1010;
     transition: 250ms;
 }
 
@@ -25,7 +25,7 @@
 
 .btn--outline{
     background-color: transparent;
-    color: #fff;
+    color: rgb(248, 0, 0);
     padding: 8px 20px;
     border-radius: 4px;
     border: 1px solid var(--primary);
@@ -36,7 +36,7 @@
     padding: 8px 20px;
     border-radius: 4px;
     font-size: 18px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .btn--large{
@@ -44,4 +44,13 @@
     border-radius: 4px;
     font-size: 20px;
     color: #fff; 
+}
+
+@keyframes pulse {
+    0%{
+        font-size: 3px;
+    }
+    50%{
+        font-size: 3px;
+    }
 }

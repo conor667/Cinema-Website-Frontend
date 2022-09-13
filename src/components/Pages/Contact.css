@@ -3,13 +3,12 @@
 }
 
 label{
-    display:flex;
+    display:grid;
     text-align: center;
     margin:0.2rem;
     padding:0.4rem;
     margin-left: 45%;
     margin-right: 45%;
-    display: flex;
     border-radius: 90px;
     border-color: #3acbf7;
     background: #3acbf7;
@@ -18,14 +17,13 @@ label{
 }
 
 input{
-    display:flex;
+    display:grid;
     margin:0.2rem;
     padding:0.5rem;
     margin-left: 42%;
     width: 300px;
     border-radius: 90px;
     border-style: solid;
-    display: flex;
 }
 
 .btncontact:hover{
