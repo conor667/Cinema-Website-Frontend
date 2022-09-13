@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-container{
+    background-color: #10011f;
+    padding-bottom: 4rem;
+}
+
+.footer{
+    width: 80%;
+    height: 40vh;
+    background-color: #10011f;
+    color:white;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
