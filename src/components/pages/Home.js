@@ -7,8 +7,13 @@ function Home() {
     return(
         <>
         <div>
+        <h1> FEATURED </h1>
         <ImageSlider slides={SliderData} />
-        <p>Welcome to QA Cinema!</p>
+        <h1>WHAT'S ON</h1>
+        <p>Placeholder</p>
+        <p>Placeholder</p>
+        <p>Placeholder</p>
+        <p>Placeholder</p>
         </div>
         </>
     )
