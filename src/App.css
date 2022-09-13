@@ -28,7 +28,25 @@
   z-index:10;
   cursor:pointer;
   user-select: none;
+  transition: 1s ease-in-out;
 }
+.right-arrow:hover{
+  transition: 1s ease;
+  color:black;
+  font-size: 4rem;
+  right: 24px;
+  top:49%;
+  animation: colorshift 1s infinite;
+}
+.left-arrow:hover{
+  transition: 1s ease;
+  color:rgb(0, 0, 0);
+  font-size:4rem;
+  left: 24px;
+  top:49%;
+  animation: colorshiftback 1s infinite;
+}
+
 
 .left-arrow{
   position:absolute;
@@ -39,15 +57,48 @@
   z-index:10;
   cursor:pointer;
   user-select: none;
+  transition: 1s ease-in-out;
 }
 
 .slide {
   opacity: 0;
-  transition-duration: 1s ease;
+  transition-duration: 2s ease-in-out;
 }
 
 .slide.active{
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.1);
+}
+
+@keyframes colorshift {
+  0%{
+    font-size:4rem;
+    transform: rotate(0deg) 
+
+  }
+  50%{
+    font-size: 4.2rem;
+    transform: rotate(360deg);
+  }
+  100%{
+    font-size:4rem;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes colorshiftback {
+  0%{
+    font-size:4rem;
+    transform: rotate(0deg) 
+
+  }
+  50%{
+    font-size: 4.2rem;
+    transform: rotate(-360deg);
+  }
+  100%{
+    font-size:4rem;
+    transform: rotate(-360deg);
+  }
 }

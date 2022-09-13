@@ -1,0 +1,60 @@
+
+
+label{
+    display:grid;
+    text-align: center;
+    margin:0.2rem;
+    padding:0.4rem;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 90px;
+    border-color: #3acbf7;
+    background: #3acbf7;
+    color:white;
+    border-style: solid;
+}
+
+input{
+    display:grid;
+    margin:0.2rem;
+    padding:0.5rem;
+    margin-left: 42%;
+    width: 300px;
+    border-radius: 90px;
+    border-style: solid;
+}
+
+.btncontact:hover{
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #6568f4;
+    transition: 250ms;
+}
+
+.btncontact{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: #3acbf7;
+    transition: all 0.3s ease-out;
+    font-size: 18px;
+    background: #3acbf7;
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.message{
+    height:300px;
+    width: 600px;
+    outline:none;
+    border-style: solid;
+    border-radius: 90px;
+    border-color: #6568f4;
+}
+
+
+
