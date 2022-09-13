@@ -2,6 +2,7 @@
     --primary: #3acbf7;
 }
 
+
 .btn {
     padding: 8px 20px;
     border-radius: 4px;
@@ -14,7 +15,7 @@
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     background: #fff;
-    color: #6568f4;
+    color: #8307e7;
     transition: 250ms;
 }
 
@@ -24,7 +25,7 @@
 
 .btn--outline{
     background-color: transparent;
-    color: #fff;
+    color: rgb(248, 0, 0);
     padding: 8px 20px;
     border-radius: 4px;
     border: 1px solid var(--primary);
@@ -35,7 +36,7 @@
     padding: 8px 20px;
     border-radius: 4px;
     font-size: 18px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .btn--large{
