@@ -1,5 +1,5 @@
 :root {
-    --primary: #ee9025;
+    --primary: #3acbf7;
 }
 
 
@@ -15,7 +15,7 @@
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     background: #fff;
-    color: #fd1010;
+    color: #8307e7;
     transition: 250ms;
 }
 
@@ -44,13 +44,4 @@
     border-radius: 4px;
     font-size: 20px;
     color: #fff; 
-}
-
-@keyframes pulse {
-    0%{
-        font-size: 3px;
-    }
-    50%{
-        font-size: 3px;
-    }
 }
