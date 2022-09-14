@@ -1,0 +1,32 @@
+.filmcontainer{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.filmpics{
+    margin: 5px;
+    width: 300px;
+    display: flex;
+}
+
+.filmpics img{
+    width: 60%;
+    height: auto;
+}
+
+.desc{
+    padding: 15px;
+}
+
+.btn--movies{
+    outline:none;
+    text-decoration: none;
+    color:rgb(250, 215, 247);
+    border: solid;
+    border-radius: 90px;
+    border-color: #4ad9e4;
+    padding:10px;
+    margin: 10px;
+    background: #4ad9e4;
+    
+}

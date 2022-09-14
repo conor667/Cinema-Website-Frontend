@@ -35,9 +35,10 @@
 }
 
 .nav-links:hover{
-    background-color: #6d76f7;
+    background: rgb(86, 79, 211);
     border-radius: 4px;
     transition: all 0.2s ease-out;
+    animation: glow 1s infinite;
 }
 
 .fa-bars{
