@@ -32,13 +32,13 @@
     color:white;
     text-decoration: none;
     padding:0.5rem 1rem;
+    transition: 1s ease-out;
 }
 
 .nav-links:hover{
     background: rgb(86, 79, 211);
     border-radius: 4px;
     transition: all 0.2s ease-out;
-    animation: glow 1s infinite;
 }
 
 .fa-bars{
@@ -131,6 +131,7 @@
         background: white;
         color: #6568f4;
         transition: 250ms;
+        transition: 1s ease-out;
     }
 
     Button{
