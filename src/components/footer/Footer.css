@@ -6,12 +6,12 @@
 
 .footer-container{
     background-color: #10011f;
-    padding-bottom: 2rem;
+    padding: 2rem;
 }
 
 .footer{
     width: 100%;
-    height: 30vh;
+    height: 20vh;
     background-color: #10011f;
     color:white;
     display:flex;
