@@ -24,7 +24,7 @@ const Footer = () => {
                     <div className="footer-heading footer-4">
                         <h2>Info</h2>
                         <a href="/About">About us</a>
-                        <a href="/">Getting there</a>
+                        <a href="/Gettinghere">Getting there</a>
                     </div>
                     <p></p>
                 </div>
