@@ -20,6 +20,11 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
+        title: 'Screens',
+        url: '/Screens',
+        cName: 'nav-links'
+    },
+    {
         title: 'Forums',
         url: '/Forums',
         cName: 'nav-links'
