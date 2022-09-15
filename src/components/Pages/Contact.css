@@ -1,6 +1,6 @@
 
 
-label{
+.contactLabel{
     display:grid;
     text-align: center;
     margin:0.2rem;
@@ -14,7 +14,7 @@ label{
     border-style: solid;
 }
 
-input{
+.contactInput{
     display:grid;
     margin:0.2rem;
     padding:0.5rem;

@@ -1,0 +1,112 @@
+  .Login{
+    color: #2b3e51;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    color: #2b3e51;
+  }
+  
+  .Logininput{
+    position: relative;
+  }
+  
+  #login-form-wrap {
+    background-color: white;
+    width: 35%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 4px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  #login-form {
+    padding: 0 60px;
+  }
+  
+  .input {
+    display: flex;
+    width: 100%;
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 20px;
+  }
+
+  .input[type="password"],
+  .input[type="email"] {
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    background: #00000005;
+    border: 1px solid #c2c0ca;
+    font-style: normal;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  .input[type="submit"] {
+    border: none;
+    display: grid;
+    background-color: #3ca9e2;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  }
+  .input[type="submit"]:hover {
+    background-color: rgb(56, 51, 138);
+    color:#FFF;
+    transition: all 0.2s ease;
+  }
+  .createbutton{
+    text-decoration: none;
+    color:white;
+    border:solid;
+    background-color: #329dd5;
+    border-color: #329dd5;
+    padding: 4px;
+    margin:13px;
+    transition: 500ms ease-out;
+    border-radius: 20px;
+    }
+  .createbutton:hover{
+    text-decoration: none;
+    color:white;
+    border:solid;
+    background-color: rgb(56, 51, 138);
+    border-color: rgb(56, 51, 138);
+    padding: 4px;
+    transition: 250ms ease-out;
+  }
+  
+  #create-account-wrap {
+    background-color: #eeedf1;
+    color: #000000;
+    font-size: 14px;
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 0 0 10px 4px;
+  }
+  .rememberbox{
+      height: 15px;
+      width: 15px;
+      background-color: #eee;
+  }
+  .rememberbox:hover{
+    background-color: #ccc;
+  }
+  .rememberbox:after{
+    content: "";
+    position: absolute;
+    display: none;  
+  }
+  .rememberMe{
+    font-size: 1.2rem;
+  }
