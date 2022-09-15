@@ -27,13 +27,14 @@
 
 .footer-heading h2{
     margin-bottom: 2rem;
+    font-size: 2rem;
 }
 
 .footer-heading a{
     color: white;
     text-decoration: none;
     margin-bottom: 0.5rem;
-
+    font-size: 1.3rem;
 }
 
 .footer-heading a:hover{
