@@ -1,0 +1,92 @@
+.GhComponent {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 2vh 2vw 2vh 2vw;
+    flex-direction: column;
+}
+
+.GhGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+/* gap: 10px; 
+This can add a gap between grid - NOT COMPATIBLE WITH INTERNET EXPLORER*/
+
+  }
+  .Address {
+    grid-column: 3;
+    grid-row: 3;
+    font-size: 1.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .Map {
+    grid-column: 2 / span 3;
+    grid-row: 4 / span 5;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .MapProp {
+    height: 100%;
+    width: 100%;
+  }
+
+  .CinemaExterior {
+    grid-column: 2;
+    grid-row: 2;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .CinemaCarPark {
+    grid-column: 4;
+    grid-row: 2;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .TrainStation {
+    grid-column: 3;
+    grid-row: 1;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .Title {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  
+  .Info {
+    grid-column: 3;
+    grid-row: 2;
+    font-family: 'Kanit', sans-serif !important;
+    font-weight:lighter;
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+
+
