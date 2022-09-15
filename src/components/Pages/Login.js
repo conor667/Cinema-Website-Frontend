@@ -16,6 +16,9 @@ function Login() {
     </p>
     <p className="loginInput">
     <input className="input" type="submit" id="login" value="Login"/>
+    <label className="rememberMe"> Remember Me 
+    <input className="rememberbox" type="checkbox"/> 
+    </label>
     </p>
   </form>
   <div id="create-account-wrap">

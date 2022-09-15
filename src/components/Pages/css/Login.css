@@ -97,3 +97,19 @@
     padding: 10px 0;
     border-radius: 0 0 4px 4px;
   }
+  .rememberbox{
+      height: 15px;
+      width: 15px;
+      background-color: #eee;
+  }
+  .rememberbox:hover{
+    background-color: #ccc;
+  }
+  .rememberbox:after{
+    content: "";
+    position: absolute;
+    display: none;  
+  }
+  .rememberMe{
+    font-size: 1.2rem;
+  }
