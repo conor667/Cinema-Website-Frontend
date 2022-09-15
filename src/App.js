@@ -4,8 +4,9 @@ import Home from './components/Pages/Home';
 import Movies from './components/Pages/Movies';
 import About from './components/Pages/About';
 import Contact from './components/Pages/Contact';
-import Footer from './components/footer/footer';
+import Footer from './components/footer/Footer';
 import Gettinghere from'./components/Pages/Gettinghere';
+import Screens from './components/Pages/Screens';
 
 function App() {
   let Component
@@ -18,6 +19,9 @@ function App() {
       break
     case "/About":
       Component = About
+      break
+    case "/Screens":
+        Component = Screens
       break
     case "/Contact":
       Component = Contact
