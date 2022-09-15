@@ -24,6 +24,14 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
+.movietitle{
+    text-decoration: none;
+    color:White;
+}
+.movietitle:hover{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.719);
+}
 
 .btn--movies{
     outline:none;

@@ -12,19 +12,19 @@ function HomePageImages(){
             <div className="filmpics">
                 <div>
                     <img  src="https://www.themoviedb.org/t/p/original/bk9GVjN4kxmGekswNigaa5YIdr5.jpg" />
-                        <div className="desc"> <sub>Alien </sub></div> 
+                        <div className="desc"> <a className="movietitle" href="/Alien">Alien</a> </div> 
                 </div>
             <div>
                 <img  src="https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_FMjpg_UX1000_.jpg" />
-                    <div className="desc"> <sub>Ironman</sub></div> 
+                    <div className="desc"> <a className="movietitle" href="/Ironman">Ironman</a> </div>
                 </div>
             <div>
                     <img  src="https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"/>
-                    <div className="desc"> <sub>The Lighthouse</sub> </div> 
+                    <div className="desc"> <a className="movietitle" href="/Lighthouse">The Lighthouse</a> </div> 
             </div>
             <div>
                 <img  src="https://m.media-amazon.com/images/I/81XjzlJ364L._AC_SL1500_.jpg" />
-                    <div className="desc"> <sub>Coraline</sub> </div> 
+                    <div className="desc"> <a className="movietitle" href="/Coraline">Corlaine</a> </div>
             </div>
             <div>
         </div>

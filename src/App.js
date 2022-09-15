@@ -6,6 +6,7 @@ import Movies from './components/Pages/Movies';
 import About from './components/Pages/About';
 import Contact from './components/Pages/Contact';
 import Footer from './components/footer/Footer';
+import Lighthouse from './components/Pages/Movies/Lighthouse';
 
 function App() {
   let Component
@@ -21,6 +22,9 @@ function App() {
       break
     case "/Contact":
       Component = Contact
+      break
+    case "/Lighthouse":
+      Component = Lighthouse
       break
     default :
       Component = Home
