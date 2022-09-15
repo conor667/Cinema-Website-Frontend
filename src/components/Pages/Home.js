@@ -5,7 +5,7 @@ import { SliderData } from './Images/SliderData';
 import HomePageImages from "./Images/HomePageImages";
 
 
-function Home() {
+function Home() 
     return(
     <div>
         <h1> FEATURED </h1>
