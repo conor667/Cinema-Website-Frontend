@@ -7,6 +7,7 @@ import Contact from './components/Pages/Contact';
 import Footer from './components/footer/Footer';
 import Gettinghere from'./components/Pages/Gettinghere';
 import Screens from './components/Pages/Screens';
+import Login from './components/Pages/Login';
 
 //App
 function App() {
@@ -30,8 +31,11 @@ function App() {
       Component = Contact
       break
     case "/Gettinghere":
-        Component = Gettinghere
-        break
+      Component = Gettinghere
+      break
+    case "/Login":
+      Component = Login
+      break
     default :
       Component = Home
       break
