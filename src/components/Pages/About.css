@@ -1,0 +1,71 @@
+.main-title {
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.title-1 {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+
+.qa-cinema-section {
+    display:block;
+}
+
+.building-image {
+    justify-content: center;
+    width: 400px;
+    max-width: 65%;
+    padding: 10px;
+}
+
+.paragraph-1 {
+    font-size: larger;
+    float: left;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+.title-2 {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+
+.team-members-section {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.paragraph-2 {
+    font-size: larger;
+    text-align: justify;
+}
+
+.title-3 {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+
+.socials-section {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.paragraph-3 {
+    font-size: larger;
+    text-align: justify;
+    padding-bottom: 20px;
+}
