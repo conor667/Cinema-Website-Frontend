@@ -8,8 +8,11 @@ import Footer from './components/footer/Footer';
 import Gettinghere from'./components/Pages/Gettinghere';
 import Screens from './components/Pages/Screens';
 
+//App
 function App() {
   let Component
+
+  //Switch statement to change web pages
   switch (window.location.pathname){
     case "/Home":
       Component = Home
@@ -33,6 +36,7 @@ function App() {
       Component = Home
       break
   }
+  //Components to build web page
   return (
     <div className="App">
       <Navbar/>
