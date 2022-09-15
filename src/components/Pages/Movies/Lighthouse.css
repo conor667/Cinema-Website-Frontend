@@ -11,3 +11,23 @@
 }
 
 .trailer{}
+
+.booknow{
+    outline:none;
+    text-decoration: none;
+    color:rgb(250, 215, 247);
+    border: solid;
+    border-radius: 90px;
+    border-color: #4ad9e4;
+    padding:10px;
+    font-size: larger;
+    background: #4ad9e4;
+    transition: 0.5s ease-out;
+}
+.booknow:hover{
+    background-color: white;
+    color:#6568f4;
+    border-color: white;
+    padding: 12px;
+    transition: 0.5s ease-out;
+}
