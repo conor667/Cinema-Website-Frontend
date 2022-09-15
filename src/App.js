@@ -5,6 +5,7 @@ import Movies from './components/Pages/Movies';
 import About from './components/Pages/About';
 import Contact from './components/Pages/Contact';
 import Footer from './components/footer/Footer';
+import Lighthouse from './components/Pages/Movies/Lighthouse';
 import Gettinghere from'./components/Pages/Gettinghere';
 import Screens from './components/Pages/Screens';
 import Login from './components/Pages/Login';
@@ -29,6 +30,9 @@ function App() {
       break
     case "/Contact":
       Component = Contact
+      break
+    case "/Lighthouse":
+      Component = Lighthouse
       break
     case "/Gettinghere":
       Component = Gettinghere
