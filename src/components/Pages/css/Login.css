@@ -1,23 +1,24 @@
   .Login{
-    color: #2b3e51;
+    color: orange;
     font-weight: 300;
     text-align: center;
     font-size: 1.6rem;
     font-family: "Open Sans", sans-serif;
-    color: #2b3e51;
+
   }
   
   .Logininput{
     position: relative;
+    background-color: green;
   }
   
   #login-form-wrap {
-    background-color: white;
+    background-color: rgb(15, 11, 11);
     width: 35%;
     margin: 30px auto;
     text-align: center;
-    padding: 20px 0 0 0;
-    border-radius: 4px;
+    padding: 10px 0 0 0;
+    border-radius: 50px;
     box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
   }
   
@@ -34,7 +35,7 @@
     border-radius: 20px;
   }
 
-  .input[type="password"],
+  /* .input[type="password"],
   .input[type="email"] {
     width: 100%;
     text-align: center;
@@ -44,13 +45,13 @@
     font-style: normal;
     font-size: 16px;
     position: relative;
-  }
+  } */
   
   .input[type="submit"] {
     border: none;
     display: grid;
-    background-color: #3ca9e2;
-    color: #fff;
+    background-color: #110d0600;
+    color: orange;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
@@ -61,13 +62,13 @@
     text-align: center;
   }
   .input[type="submit"]:hover {
-    background-color: rgb(56, 51, 138);
-    color:#FFF;
-    transition: all 0.2s ease;
+    filter: drop-shadow(0px 0px 50px white);
+    color: orange;
   }
+
   .createbutton{
     text-decoration: none;
-    color:white;
+    color:rgb(217, 191, 191);
     border:solid;
     background-color: #329dd5;
     border-color: #329dd5;
@@ -87,13 +88,15 @@
   }
   
   #create-account-wrap {
-    background-color: #eeedf1;
-    color: #000000;
-    font-size: 14px;
+    background-color: rgb(15, 11, 11);
+    color: orange;
+    font-size: 18px;
     width: 100%;
     padding: 20px 0;
-    border-radius: 0 0 10px 4px;
+    border-radius: 20px 20px 50px 50px;
   }
+
+
   .rememberbox{
       height: 15px;
       width: 15px;
