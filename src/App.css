@@ -116,8 +116,19 @@
   }
 }
 
-h1,h2,h3,h4,h5,h6, input, label, textarea {
+h1,h2,h3,h4,h5,h6, input, label, textarea{
   color: orange;
+}
+.btn--movies {
+  background-color: orange !important;
+  border-color: orange !important;
+  color: black !important;
+}
+.movietitle {
+  color: orange !important;
+  filter: drop-shadow(0px 0px 2px black) !important;
+  font-size: larger !important;
+  
 }
 input, textarea {
  background-color: black;
