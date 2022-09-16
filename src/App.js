@@ -50,8 +50,6 @@ function App() {
       <Navbar/>
       <Component />
       <Footer />
-      <header className="App-header">
-      </header>
     </div>
   );
 }
