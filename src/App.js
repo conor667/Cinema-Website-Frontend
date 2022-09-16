@@ -12,47 +12,47 @@ import Login from "./components/Pages/Login";
 
 //App
 function App() {
-  let Component;
+	let Component;
 
-  //Switch statement to change web pages
-  switch (window.location.pathname) {
-    case "/Home":
-      Component = Home;
-      break;
-    case "/Movies":
-      Component = Movies;
-      break;
-    case "/About":
-      Component = About;
-      break;
-    case "/Screens":
-      Component = Screens;
-      break;
-    case "/Contact":
-      Component = Contact;
-      break;
-    case "/Lighthouse":
-      Component = Lighthouse;
-      break;
-    case "/Gettinghere":
-      Component = Gettinghere;
-      break;
-    case "/Login":
-      Component = Login;
-      break;
-    default:
-      Component = Home;
-      break;
-  }
-  //Components to build web page
-  return (
-    <div className="App">
-      <Navbar />
-      <Component />
-      <Footer />
-      <header className="App-header"></header>
-    </div>
-  );
+	//Switch statement to change web pages
+	switch (window.location.pathname) {
+		case "/Home":
+			Component = Home;
+			break;
+		case "/Movies":
+			Component = Movies;
+			break;
+		case "/About":
+			Component = About;
+			break;
+		case "/Screens":
+			Component = Screens;
+			break;
+		case "/Contact":
+			Component = Contact;
+			break;
+		case "/Lighthouse":
+			Component = Lighthouse;
+			break;
+		case "/Gettinghere":
+			Component = Gettinghere;
+			break;
+		case "/Login":
+			Component = Login;
+			break;
+		default:
+			Component = Home;
+			break;
+	}
+	//Components to build web page
+	return (
+		<div className="App">
+			<Navbar />
+			<Component />
+			<Footer />
+			<header className="App-header"></header>
+		</div>
+	);
 }
 
 export default App;
