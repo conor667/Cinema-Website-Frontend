@@ -9,6 +9,8 @@ function LoginForm() {
 		setTypeData(type);
 	}
 
+	//test
+
 	if (typeData === "Login") {
 		return (
 			<div className="Login">
