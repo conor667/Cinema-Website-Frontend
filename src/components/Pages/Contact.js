@@ -21,6 +21,7 @@ const Contact = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
+      <div className='formContainer'>
       <label className='contactLabel'>Name</label>
       <input className='contactInput' type="text" name="from_name" placeholder="Your Name" required />
       <label className='contactLabel'>Email</label>
@@ -29,6 +30,7 @@ const Contact = () => {
       <input className='contactInput' type="text" name="subject" placeholder="Subject" required/>
       <textarea className='message' name="message" required placeholder="Your message goes here"/>
       <button className='btncontact' type="submit" value="Send">Send</button>
+      </div>
     </form>
   );
 };

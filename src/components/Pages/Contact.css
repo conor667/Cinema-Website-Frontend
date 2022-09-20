@@ -4,7 +4,7 @@
     display:grid;
     text-align: center;
     margin:0.2rem;
-    padding:0.4rem;
+    padding:0.2rem;
     margin-left: 45%;
     margin-right: 45%;
     border-radius: 90px;
@@ -21,7 +21,7 @@
     margin-left: 42%;
     width: 300px;
     border-radius: 90px;
-    border-style: solid;
+    border: none;
 }
 
 .btncontact:hover{
@@ -33,17 +33,13 @@
 }
 
 .btncontact{
-    background-color: transparent;
+    background: rgb(207, 138, 9);
     color: #fff;
     padding: 8px 20px;
-    border-radius: 4px;
-    border: rgb(207, 138, 9);
     transition: all 0.3s ease-out;
     font-size: 18px;
-    background: rgb(207, 138, 9);
-    padding: 8px 20px;
-    border-radius: 4px;
-    outline: none;
+    border-radius: 30px;
+    margin: 1.2rem;
     border: none;
     cursor: pointer;
     display: flex;
@@ -53,9 +49,7 @@
     height:300px;
     width: 600px;
     outline:none;
-    border-style: solid;
-    border-radius: 90px;
-    border-color: #6568f4;
+    border-style: none;
 }
 
 
