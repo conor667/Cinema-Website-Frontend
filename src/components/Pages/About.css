@@ -5,9 +5,7 @@
 
 .title-1 {
     padding: 20px;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 100px;
+    text-align: center;
 }
 
 .qa-cinema-section {
@@ -15,7 +13,6 @@
 }
 
 .building-image {
-    justify-content: center;
     width: 400px;
     max-width: 65%;
     padding: 10px;
@@ -23,49 +20,26 @@
 
 .paragraph-1 {
     font-size: larger;
-    float: left;
-    text-align: justify;
+    text-align: center;
     padding-left: 100px;
     padding-right: 100px;
 }
-
-
-
-.title-2 {
-    padding: 20px;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 100px;
-}
-
-.team-members-section {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.paragraph-2 {
-    font-size: larger;
-    text-align: justify;
+.aboutContainer{
+    text-align: center;
 }
 
 .title-3 {
-    padding: 20px;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 100px;
+    padding: 10px;
+    text-align: center;
 }
 
 .socials-section {
-    display: flex;
-    justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
+    text-align: center;
 }
 
 .paragraph-3 {
-    font-size: larger;
-    text-align: justify;
-    padding-bottom: 20px;
+    text-align: center;
+    padding-bottom: 50px;
 }
