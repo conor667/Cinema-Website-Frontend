@@ -42,6 +42,7 @@ function TeamMembers() {
 					Subhaan Malik <br/>
 					Justin Graham <br/>
 					Robert Kusz <br/>
+					Angel Puruncajas
 				</p>
 			</div>
 		</div>
