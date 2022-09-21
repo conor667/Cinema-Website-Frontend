@@ -12,7 +12,7 @@
     width: 100%;
     height: 15rem;
     background: rgb(15,15,15);
-    background: linear-gradient(340deg, rgba(15,15,15,1) 60%, rgba(212,126,21,1) 100%);
+    background: linear-gradient(340deg, #0f0f0f 60%, rgb(212, 126, 21) 100%);
     color:white;
     display:flex;
     justify-content: center;
