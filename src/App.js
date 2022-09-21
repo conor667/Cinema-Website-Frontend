@@ -10,6 +10,8 @@ import Gettinghere from "./components/Pages/Gettinghere";
 import Screens from "./components/Pages/Screens";
 import Login from "./components/Pages/Login";
 import Openingtimes from "./components/Pages/Openingtimes";
+import Movie from './components/Pages/MoviesApp';
+
 
 //App
 function App() {
@@ -21,7 +23,7 @@ function App() {
 			Component = Home;
 			break;
 		case "/Movies":
-			Component = Movies;
+			Component = Movie;
 			break;
 		case "/About":
 			Component = About;
