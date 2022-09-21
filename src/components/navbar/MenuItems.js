@@ -26,7 +26,7 @@ export const MenuItems = [
     },
     {
         title: 'Forums',
-        url: '/Forums',
+        url: 'src/components/Pages/Forum /forum.html',
         cName: 'nav-links'
     },
     {
