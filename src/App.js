@@ -9,6 +9,7 @@ import Lighthouse from "./components/Pages/Movies/Lighthouse";
 import Gettinghere from "./components/Pages/Gettinghere";
 import Screens from "./components/Pages/Screens";
 import Login from "./components/Pages/Login";
+import Openingtimes from "./components/Pages/Openingtimes";
 
 //App
 function App() {
@@ -39,6 +40,9 @@ function App() {
 			break;
 		case "/Login":
 			Component = Login;
+			break;
+		case "/Openingtimes":
+			Component = Openingtimes;
 			break;
 		default:
 			Component = Home;

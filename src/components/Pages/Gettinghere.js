@@ -50,8 +50,8 @@ function Gettingthere() {
 				<div className="Info">
 					<h1>Parking</h1>
 					<p>
-						Our carpark is CCTV monitored 24hrs a day and free to all of our customers. We have spaces for bikes, cars, motorbikes and electric car charging points. Our carpark closes at 2am so please be aware that your car
-						needs to be moved by this time.
+						Our carpark is CCTV monitored 24hrs a day and free to all of our customers. We have spaces for bikes, cars, motorbikes and electric car charging points. Our carpark closes at 2am so please be aware that your car needs to be moved by
+						this time.
 					</p>
 					<h1>Directions</h1>
 					<p>Use the links below to get directions to us depending on how you plan on getting here!</p>
