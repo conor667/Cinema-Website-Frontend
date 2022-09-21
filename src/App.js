@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 
 import Home from './components/Pages/Home';
-import Movies from './components/Pages/Movies';
+import Movie from './components/Pages/MoviesApp';
 import About from './components/Pages/About';
 import Screens from './components/Pages/Screens';
 import Contact from './components/Pages/Contact';
@@ -15,7 +15,7 @@ function App() {
       Component = Home
       break
     case "/Movies":
-      Component = Movies
+      Component = Movie
       break
     case "/About":
       Component = About
