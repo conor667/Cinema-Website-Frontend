@@ -1,7 +1,6 @@
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Pages/Home";
-import Movies from "./components/Pages/Movies";
 import About from "./components/Pages/About";
 import Contact from "./components/Pages/Contact";
 import Footer from "./components/footer/Footer";
@@ -10,8 +9,7 @@ import Gettinghere from "./components/Pages/Gettinghere";
 import Screens from "./components/Pages/Screens";
 import Login from "./components/Pages/Login";
 import Openingtimes from "./components/Pages/Openingtimes";
-import Movie from './components/Pages/MoviesApp';
-
+import Movie from "./components/Pages/MoviesApp";
 
 //App
 function App() {
