@@ -61,7 +61,7 @@ function MovieApp() {
 							<div className="movie-over">
 								<h2> Overview: </h2>
 								<p>{movie.description}</p>
-                <a href={movie.pageURL}>More Info</a>
+                				<a className="more-info" href={movie.pageURL}>More Info</a>
                 
 							</div>
 
