@@ -1,0 +1,20 @@
+.movie {
+    width: 300px;
+    margin: 1rem;
+    background-color: #d47e15;
+    border-radius: 3px;
+    box-shadow:  rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+.imageclassin {
+    /* max-width: 100%; */
+    width:  300px;
+    height: 450px;
+}
+
+.movie-container-in {
+    display: flex;
+    flex-wrap: wrap;
+}

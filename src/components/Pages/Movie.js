@@ -6,9 +6,7 @@ const Movie = ({filmName, imageURL}) =>
     <div className="movie">
         <img src={IMAGE_API + imageURL} alt={filmName}/>
         
-        <div className="movie-over">
-            <h2> Overview: </h2>
-        </div>
+       
     </div>;
 ;
 

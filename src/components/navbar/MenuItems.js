@@ -57,10 +57,15 @@ export const MenuItems = [
 		cName: "nav-links",
 	},
 	{
+		title: "New Releases",
+		url: "/NewReleases",
+		cName: "nav-links",
+	},
+	{
 		title: "Classifications",
 		url: "/Classifications",
 		cName: "nav-links",
 
-	},
+	}
 
 ];

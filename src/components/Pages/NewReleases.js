@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./Movie.css";
 
-const FEAT_API = "http://localhost:5500/movie";
+const FEAT_API = "http://localhost:5500/newfilm/true";
 const SEARCH_API = "http://localhost:5500/filmCodeName?";
 
-function MovieApp() {
+function NewReleases() {
 	const [movies, setMovies] = useState([]);
 	const [searchTerm, setSearchTerm] = useState('');
 
@@ -34,14 +34,14 @@ function MovieApp() {
 
 	return (
 		<>
-			<div>
+			<header>
 				<form onSubmit={handleOnSubmit}>
 					<input className="search" 
           type="text" placeholder="Search ..." 
           value={searchTerm} 
           onChange={handleOnChange} />
 				</form>
-			</div>
+			</header>
 
 			<div className="movie-container">
 				{movies.length > 0 &&
@@ -73,4 +73,4 @@ function MovieApp() {
 	);
 }
 
-export default MovieApp;
+export default NewReleases;
