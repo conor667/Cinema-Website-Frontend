@@ -1,15 +1,15 @@
 // import React from "react";
-import "./Home.css"
+import "./Home.css";
 import ImageSlider from "./Images/ImageSlider";
-import { SliderData } from './Images/SliderData';
+import { SliderData } from "./Images/SliderData";
 import React, { useEffect, useState } from "react";
 
 const FEAT_API = "http://localhost:5500/newfilm/true";
 
 function Home() {
-    const [movies, setMovies] = useState([]);
+	const [movies, setMovies] = useState([]);
 
-    useEffect(() => {
+	useEffect(() => {
 		fetch(FEAT_API)
 			.then((response) => response.json())
 			.then((data) => {
@@ -18,49 +18,43 @@ function Home() {
 			});
 	}, []);
 
-    return(
-    <div>
-        <h1> FEATURED </h1>
-        
-        <ImageSlider slides={SliderData} />
-        
-       
-        <h1>WHAT'S ON</h1>
+	return (
+		<div classname="homepage">
+			<h1> Check out our current deals! </h1>
 
-        
-        <div className="home-film-container">
-        <div className="movie-container">
-				{movies.length > 0 &&
-					movies.map((movie) => (
-						<div className="movie">
-							<div className="movie-header"></div>
+			<ImageSlider slides={SliderData} />
 
-							<img src={movie.imageURL} alt="img"></img>
+			<h1>Upcoming Releases</h1>
 
-							<div className="movie-details">
-								<p className="film-title">{movie.filmName}</p>
-								<p>{movie.genre}</p>
-								<p>{movie.rating}</p>
-                            
+			<div className="home-film-container">
+				<div className="movie-container">
+					{movies.length > 0 &&
+						movies.map((movie) => (
+							<div className="movie">
+								<div className="movie-header"></div>
+
+								<img src={movie.imageURL} alt="img"></img>
+
+								<div className="movie-details">
+									<p className="film-title">{movie.filmName}</p>
+									<p>{movie.genre}</p>
+									<p>{movie.rating}</p>
+								</div>
+
+								<div className="movie-over">
+									<h2> Overview: </h2>
+									<p>{movie.description}</p>
+									<a href={movie.pageURL}>More Info</a>
+								</div>
+
+								<div className="movie-actions"></div>
 							</div>
-
-							<div className="movie-over">
-								<h2> Overview: </h2>
-								<p>{movie.description}</p>
-                             <a href={movie.pageURL}>More Info</a>
-                
-							</div>
-
-							<div className="movie-actions"></div>
-                            
-						</div>
-					))}
-                    {/* <HomePageImages /> */}
+						))}
+					{/* <HomePageImages /> */}
+				</div>
 			</div>
-
-            </div>
-    </div>
-    )
+		</div>
+	);
 }
 
 export default Home;

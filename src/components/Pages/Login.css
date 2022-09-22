@@ -4,9 +4,47 @@
     text-align: center;
     font-size: 1.6rem;
     font-family: "Open Sans", sans-serif;
-
+    grid-column: 2/ span 3;
+    grid-row: 2/ span 4;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    align-self: center;
   }
+
+  .Reigster{
+    color: orange;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    grid-column: 2/ span 3;
+    grid-row: 2/ span 4;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    align-self: center;
+  }
+
+  .GhGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    filter: none;
+    padding: 2vh 2vw 2vh 2vw;
+}
   
+.GhComponent {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-size: 100%;
+}
   .Logininput{
     position: relative;
     background-color: green;
@@ -21,8 +59,23 @@
     border-radius: 50px;
     box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
   }
+
+  #register-form-wrap {
+    background-color: rgb(15, 11, 11);
+    width: 35%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-radius: 50px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+  }
+
   
   #login-form {
+    padding: 0 60px;
+  }
+
+  #register-form {
     padding: 0 60px;
   }
   
