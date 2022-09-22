@@ -22,9 +22,10 @@ function Login() {
 				body: JSON.stringify(formObject),
 			});
 			if (rawResponse.status === 400) {
-				console.log("invalid LOGIN BOIS");
+				alert("Invalid login details, please try again");
 			} else if (rawResponse.status === 200) {
-				console.log(await rawResponse.json());
+				alert("You've successfully logged in!");
+				// console.log(await rawResponse.json());
 				//TODO : Cookie doesn't save on changing pages - not MVP so will come back to this if time.
 			}
 			// console.log(content);
@@ -130,7 +131,6 @@ function Login() {
 					</div>
 				</div>
 			</div>
-
 		);
 	}
 }
