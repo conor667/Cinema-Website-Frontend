@@ -1,5 +1,5 @@
-.movie {
-    width: 300px;
+.movie-in {
+    width: 500px;
     margin: 1rem;
     background-color: #d47e15;
     border-radius: 3px;
@@ -12,9 +12,74 @@
     /* max-width: 100%; */
     width:  300px;
     height: 450px;
+    
 }
 
 .movie-container-in {
     display: flex;
     flex-wrap: wrap;
 }
+
+.movie-details-in {
+    /* background-color: #d47e15; */
+    justify-content: space-between;
+    padding: 1rem;
+    color: #0f0f0f;
+    /* padding: 20%; */
+    /* padding-left: 100px; */
+}
+
+.movie-container-in {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.film-title-in {
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.film-genre {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.film-director {
+    font-size: 18px;
+}
+
+.film-rating-15 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font: 22px Arial, sans-serif;
+    justify-content: center;
+  }
+
+  .film-rating-12 {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    /* padding-left: 10px; */
+    background: rgb(248, 141, 0);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font: 22px Arial, sans-serif;
+    justify-content: center;
+  }
+
+  .book-button {
+    border-radius: 4%;
+    background-color: rgb(255, 0, 0);
+    color: azure;
+    font-size: 20px;
+    color: whit;
+  }

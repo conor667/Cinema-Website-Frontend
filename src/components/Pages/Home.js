@@ -22,6 +22,7 @@ function Home() {
 		<div classname="homepage">
 			<h1> Check out our current deals! </h1>
 
+
 			<ImageSlider slides={SliderData} />
 
 			<h1>Upcoming Releases</h1>
