@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import "./individual.css"
 
 const FEAT_API_BAT = "http://localhost:5500/filmCodeName/batman";
 
@@ -20,28 +20,27 @@ function Batman() {
 
 	return (
         <>
-        <div className="movie-container">
+            <div className="movie-container-in">
             {movies.length > 0 && 
                 movies.map((movie) => (
-                    <div className="movie">
+                    <div className="movie-in">
                         <div className="movie-header"></div>
 
                         <img src={movie.imageURL} class="imageclassin" alt="img"></img>
 
-                        <div className="movie-details">
-                            <p className="film-title">{movie.filmName}</p>
-                            <p>{movie.genre}</p>
-                            <p>{movie.director}</p>
-                            <p>{movie.rating}</p>
-                            <p>{movie.longDescription}</p>
+                        <div className="movie-details-in">
+                            <p className="film-rating-15">{movie.rating}</p>
+                            <p className="film-title-in">{movie.filmName}</p>
+                            <p className="film-genre">{movie.genre}</p>
+                            <p className="film-director"> by {movie.director}</p>
+                            <p className="film-description">{movie.longDescription}</p>
                             <p>{movie.length}</p>
 
-                            <btn>Book Now</btn>
-
+                            <btn className="book-button">Book Now</btn> 
                         </div>
-
-                        <div className="movie-actions-in"></div>
                     </div>
+
+
                 ))}
         </div>
     </>

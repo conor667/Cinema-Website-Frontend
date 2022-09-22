@@ -20,7 +20,7 @@ function Home() {
 
     return(
     <div>
-        <h1> FEATURED </h1>
+        <h1> OUR TOP PICKS </h1>
         
         <ImageSlider slides={SliderData} />
         
