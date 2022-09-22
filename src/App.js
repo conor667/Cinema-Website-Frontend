@@ -19,6 +19,9 @@ import EveryThing from "./components/Pages/individual/Everything";
 import Nope from "./components/Pages/individual/Nope";
 import MovieX from "./components/Pages/individual/filmx";
 import Batman from "./components/Pages/individual/batman";
+import ThingsToDo from "./components/Pages/ThingsToDo";
+import Classifications from "./components/Pages/Classifications";
+
 
 //App
 function App() {
@@ -50,8 +53,14 @@ function App() {
 		case "/Login":
 			Component = Login;
 			break;
-		case "/Openingtimes":
+			case "/Classifications":
+			Component = Classifications;
+			break;
+			case "/Openingtimes":
 			Component = Openingtimes;
+			break;
+			case "/ThingsToDo":
+			Component = ThingsToDo;
 			break;
 		default:
 			Component = Home;
@@ -84,6 +93,7 @@ function App() {
 		case "/NewReleases":
 			Component = NewReleases;
 			break;
+
 	}
 	//Components to build web page
 	return (
@@ -91,7 +101,7 @@ function App() {
 			<Navbar />
 			<Component />
 			<Footer />
-			<header className="App-header"></header>
+			{/* <header className="App-header"></header> */}
 		</div>
 	);
 }

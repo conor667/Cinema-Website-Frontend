@@ -24,10 +24,6 @@ function Login() {
 			if (rawResponse.status === 400) {
 				console.log("invalid LOGIN BOIS");
 			} else if (rawResponse.status === 200) {
-				fetch("http://localhost:5500/auth", {
-					withCredentials: true,
-					credentials: "include",
-				});
 				console.log(await rawResponse.json());
 				//TODO : Cookie doesn't save on changing pages - not MVP so will come back to this if time.
 			}
@@ -55,8 +51,8 @@ function Login() {
 								<span></span>
 							</i>
 						</div>
-						<div className="Loginbutton">
-							<input classname="input" type="submit" id="Login" />
+						<div className="RegisterInput">
+							<input className="input" type="submit" id="login" placeholder="Login" />
 						</div>
 						{/* <div className="RememberMe">
 							<input className="input" type="submit" id="login" placeholder="Login" />
@@ -134,6 +130,7 @@ function Login() {
 					</div>
 				</div>
 			</div>
+
 		);
 	}
 }

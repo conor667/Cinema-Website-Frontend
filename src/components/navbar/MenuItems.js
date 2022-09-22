@@ -30,6 +30,13 @@ export const MenuItems = [
 		cName: "nav-links",
 	},
 	{
+		title: "Things To Do",
+		url: "/ThingsToDo",
+		cName: "nav-links",
+	},
+
+
+	{
 		title: "Login",
 		url: "/Login",
 		cName: "nav-links-mobile",
@@ -49,12 +56,16 @@ export const MenuItems = [
 		url: "/Login",
 		cName: "nav-links",
 	},
-
 	{
 		title: "New Releases",
 		url: "/NewReleases",
 		cName: "nav-links",
-	}
+	},
+	{
+		title: "Classifications",
+		url: "/Classifications",
+		cName: "nav-links",
 
+	}
 
 ];
