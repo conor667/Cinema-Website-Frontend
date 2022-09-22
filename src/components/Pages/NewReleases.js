@@ -34,14 +34,14 @@ function NewReleases() {
 
 	return (
 		<>
-			<header>
+			<div>
 				<form onSubmit={handleOnSubmit}>
 					<input className="search" 
           type="text" placeholder="Search ..." 
           value={searchTerm} 
           onChange={handleOnChange} />
 				</form>
-			</header>
+			</div>
 
 			<div className="movie-container">
 				{movies.length > 0 &&
