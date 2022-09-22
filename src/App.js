@@ -10,6 +10,9 @@ import Screens from "./components/Pages/Screens";
 import Login from "./components/Pages/Login";
 import Openingtimes from "./components/Pages/Openingtimes";
 import Movie from "./components/Pages/MoviesApp";
+import ThingsToDo from "./components/Pages/ThingsToDo";
+import Classifications from "./components/Pages/Classifications";
+
 
 //App
 function App() {
@@ -41,12 +44,19 @@ function App() {
 		case "/Login":
 			Component = Login;
 			break;
-		case "/Openingtimes":
+			case "/Classifications":
+			Component = Classifications;
+			break;
+			case "/Openingtimes":
 			Component = Openingtimes;
+			break;
+			case "/ThingsToDo":
+			Component = ThingsToDo;
 			break;
 		default:
 			Component = Home;
 			break;
+
 	}
 	//Components to build web page
 	return (
