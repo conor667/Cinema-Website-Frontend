@@ -27,10 +27,13 @@
     color: #0f0f0f;
 }
 
-/* 
-.film-title {
 
-} */
+.film-title {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
 
 .movie-over {
     background-color: #d47e15;
@@ -84,3 +87,9 @@ body {
     
 }
 
+.more-info{
+    font-size: 30px;
+    background-color: #0c0b0b;
+    color: rgb(95, 83, 83);
+    border-radius: 4px;
+}
