@@ -10,6 +10,15 @@ import Screens from "./components/Pages/Screens";
 import Login from "./components/Pages/Login";
 import Openingtimes from "./components/Pages/Openingtimes";
 import Movie from "./components/Pages/MoviesApp";
+import DrStr from "./components/Pages/individual/DoctorStrange";
+import SeeHow from "./components/Pages/individual/SeeHowTheyRun";
+import NewReleases from "./components/Pages/NewReleases";
+import TopGun from "./components/Pages/individual/TopGun";
+import Train from "./components/Pages/individual/BulletTrain";
+import EveryThing from "./components/Pages/individual/Everything";
+import Nope from "./components/Pages/individual/Nope";
+import MovieX from "./components/Pages/individual/filmx";
+import Batman from "./components/Pages/individual/batman";
 
 //App
 function App() {
@@ -46,6 +55,34 @@ function App() {
 			break;
 		default:
 			Component = Home;
+			break;
+		case "/DrStr":
+			Component = DrStr;
+			break;
+		case "/shtr":
+			Component = SeeHow;
+			break;
+		case "/topgm":
+			Component = TopGun;
+			break;
+		case "/train":
+			Component = Train;
+			break;
+		case "/EEAAO":
+			Component = EveryThing;
+			break;
+		case "/nope":
+			Component = Nope;
+			break;
+		case "/filmx":
+			Component = MovieX;
+			break;
+		case "/batman":
+			Component = Batman;
+			break;
+
+		case "/NewReleases":
+			Component = NewReleases;
 			break;
 	}
 	//Components to build web page

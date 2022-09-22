@@ -49,4 +49,12 @@ export const MenuItems = [
 		url: "/Login",
 		cName: "nav-links",
 	},
+
+	{
+		title: "New Releases",
+		url: "/NewReleases",
+		cName: "nav-links",
+	}
+
+
 ];
