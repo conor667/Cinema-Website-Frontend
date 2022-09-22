@@ -1,0 +1,8 @@
+.home-film-container{
+    justify-content: center;
+    /* background-color: black; */
+    /* padding-right: 500PX; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
