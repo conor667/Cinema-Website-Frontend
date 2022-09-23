@@ -1,0 +1,46 @@
+.main-title {
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.title-1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.qa-cinema-section {
+    display:block;
+}
+
+.building-image {
+    width: 400px;
+    max-width: 65%;
+    padding: 10px;
+}
+
+.paragraph-1 {
+    font-size: larger;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.aboutContainer{
+    text-align: center;
+}
+
+.title-3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.socials-section {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.paragraph-3 {
+    color: orange;
+    text-align: center;
+    padding-bottom: 50px;
+}
