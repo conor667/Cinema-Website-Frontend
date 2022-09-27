@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/TeamDeltaProjectFrontEnd/static/css/main.891da919.css",
-    "main.js": "/TeamDeltaProjectFrontEnd/static/js/main.991f33c2.js",
+    "main.css": "/TeamDeltaProjectFrontEnd/static/css/main.c21c661b.css",
+    "main.js": "/TeamDeltaProjectFrontEnd/static/js/main.cbd7fe54.js",
+    "static/media/Cinemacarpark.png": "/TeamDeltaProjectFrontEnd/static/media/Cinemacarpark.f058b07214cdd5b4b9f0.png",
+    "static/media/Building.jpg": "/TeamDeltaProjectFrontEnd/static/media/Building.fbaee07737ff5d5047a5.jpg",
     "index.html": "/TeamDeltaProjectFrontEnd/index.html",
-    "main.891da919.css.map": "/TeamDeltaProjectFrontEnd/static/css/main.891da919.css.map",
-    "main.991f33c2.js.map": "/TeamDeltaProjectFrontEnd/static/js/main.991f33c2.js.map"
+    "main.c21c661b.css.map": "/TeamDeltaProjectFrontEnd/static/css/main.c21c661b.css.map",
+    "main.cbd7fe54.js.map": "/TeamDeltaProjectFrontEnd/static/js/main.cbd7fe54.js.map"
   },
   "entrypoints": [
-    "static/css/main.891da919.css",
-    "static/js/main.991f33c2.js"
+    "static/css/main.c21c661b.css",
+    "static/js/main.cbd7fe54.js"
   ]
 }
